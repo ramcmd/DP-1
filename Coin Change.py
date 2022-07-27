@@ -1,3 +1,6 @@
+#TC: O(m*n) where m is the len(coins) and m is the amount
+# SC: O(m*n) it takes up the space of the 2 D matrix created.
+ 
 class Solution:
     def coinChange(self, coins: List[int], amount: int) -> int:
         
